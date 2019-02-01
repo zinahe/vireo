@@ -15,3 +15,7 @@ This library was written for MIT's operating systems class, and the
 examples are taken from the examples / test cases in JOS, the teaching
 OS used in that class. The library itself is licensed under the 2-clause
 BSD license.
+
+This library is based on a family of C library functions in <ucontext.h>
+(setcontext, getcontext, makecontext and swapcontext) used for context control.
+https://en.wikipedia.org/wiki/Setcontext
